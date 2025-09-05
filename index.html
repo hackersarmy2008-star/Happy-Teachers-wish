@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hacker Teacher — Appreciation</title>
+  <meta name="description" content="Happy Teacher's Day — Hacker style" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">[HACK_TEACHER_DAY]</div>
+      <div class="badge">teacher_appreciation.exe</div>
+    </header>
+
+    <main class="hero">
+      <div class="hero-grid">
+        <!-- Left Side -->
+        <div>
+          <div class="title neon-glow">HAPPY TEACHER'S<br/>DAY</div>
+          <div class="sub">
+            To the Master of Digital Arts & Cybersecurity<br/>
+            <span style="color:var(--neon);font-family:var(--mono)">
+              Who taught us to think like hackers, code like pros
+            </span>
+          </div>
+
+          <!-- Terminal -->
+          <div class="terminal" id="terminal">
+            <div class="controls">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <div class="muted">teacher_appreciation.exe</div>
+            </div>
+            <div class="code" id="codeArea">
+              <p class="muted">$ initialize gratitude.protocol</p>
+              <p id="line1">Loading appreciation modules...</p>
+              <p id="line2">Respect.dll loaded successfully</p>
+              <p id="line3">Gratitude.exe running</p>
+              <p id="line4">Teacher_day.celebration initialized</p>
+              <p style="color:#abffbd;font-weight:700">Status: Ready to express appreciation</p>
+            </div>
+            <a class="big-btn" id="executeBtn">EXECUTE_GRATITUDE.sh</a>
+          </div>
+
+          <div class="img-card">
+            <img src="images/classroom.jpg" alt="classroom"/>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <aside>
+          <div class="panel terminal">
+            <div style="font-family:var(--mono);font-weight:700;color:var(--neon);margin-bottom:8px">
+              ./appreciation_protocol
+            </div>
+<pre class="muted" style="white-space:pre-wrap;font-size:13px">/* APPRECIATION PROTOCOL ACTIVATED */
+
+function expressGratitude() {
+  console.log("Thank you for teaching us");
+  console.log("The art of ethical hacking");
+  console.log("and cybersecurity mastery");
+}
+expressGratitude();</pre>
+          </div>
+
+          <div class="panel">
+            <div style="font-weight:700;color:var(--neon);font-family:var(--mono);margin-bottom:8px">
+              Classical Education Meets Modern Hacking
+            </div>
+            <div class="muted" style="font-size:14px">
+              Your unique approach of combining traditional academic rigor with cutting-edge
+              cybersecurity knowledge has shaped us into ethical hackers and digital guardians.
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Two Columns -->
+      <div class="columns">
+        <div class="panel">
+          <div class="memory">./memory_bank --display</div>
+          <div class="img-card"><img src="images/student-workout.jpg" alt="student"/></div>
+        </div>
+
+        <div class="panel">
+          <div style="font-weight:700;color:var(--neon);font-family:var(--mono);margin-bottom:8px">Gratitude Log</div>
+          <div class="muted" id="logArea">No entries yet. Click <span style="color:var(--neon);font-family:var(--mono)">EXECUTE_GRATITUDE.sh</span> to add one.</div>
+          <a class="big-btn" id="downloadBtn">Download gratitude_log.txt</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      &copy; <span class="muted">Hacker Teacher Appreciation</span> • Deploy with GitHub Pages.
+    </footer>
+  </div>
+
+  <!-- Sound -->
+  <audio id="typeSound" src="sounds/typing.mp3" preload="auto"></audio>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
